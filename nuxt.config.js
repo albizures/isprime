@@ -41,12 +41,7 @@ export default {
 		'@nuxt/typescript-build',
 		// Doc: https://github.com/nuxt-community/nuxt-tailwindcss
 		'@nuxtjs/tailwindcss',
-		[
-			'@nuxtjs/google-analytics',
-			{
-				id: 'UA-113899183-5',
-			},
-		],
+		'@nuxtjs/google-analytics',
 	],
 	/*
 	 ** Nuxt.js modules
@@ -55,6 +50,9 @@ export default {
 		// Doc: https://github.com/nuxt-community/dotenv-module
 		'@nuxtjs/dotenv',
 	],
+	googleAnalytics: {
+		id: 'UA-113899183-5',
+	},
 	/*
 	 ** Build configuration
 	 */
