@@ -10,7 +10,10 @@ export default {
 		},
 		meta: [
 			{ charset: 'utf-8' },
-
+			{
+				name: 'google-site-verification',
+				content: 's5FB1MLTMXZbOXmmY5gc8VSDJQZChnLdESjuol8aTgI',
+			},
 			{ name: 'keywords', content: 'prime numbers, math, prime, number' },
 			{ name: 'author', content: 'Jose Albizures' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
