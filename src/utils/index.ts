@@ -1,10 +1,14 @@
 import memoize from 'lodash.memoize';
-const hasDecimals = (value: number) => value % 1 !== 0;
 
-const isPrime = memoize((value: number) => {
+const isPrime = memoize((num: number) => {
+	const value = Math.abs(num);
 	let counter = 0;
 
-	for (let index = 1; index <= value / 2; index++) {
+	if (value < 2) {
+		return false;
+	}
+
+	for (let index = 1; index <= value; index++) {
 		if (value % index === 0) {
 			counter = counter + 1;
 		}
@@ -22,4 +26,4 @@ const getRandomItem = <T>(items: T[]): T => {
 	return items[index];
 };
 
-export { isPrime, getRandomItem, hasDecimals };
+export { isPrime, getRandomItem };

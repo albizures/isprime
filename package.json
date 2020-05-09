@@ -1,40 +1,32 @@
 {
 	"name": "isprime",
 	"version": "1.0.0",
-	"description": "simple page to check if the given number is prime",
-	"author": "Jose Albizures",
-	"private": true,
+	"main": "index.js",
+	"author": "Jose Albizures <jose@albizures.com>",
+	"license": "MIT",
 	"scripts": {
-		"dev": "nuxt",
-		"build": "nuxt build",
-		"start": "nuxt start",
-		"generate": "nuxt generate",
-		"lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+		"build": "next build",
+		"dev": "next dev",
+		"start": "next start",
 		"test": "jest"
 	},
 	"dependencies": {
-		"@nuxtjs/dotenv": "^1.4.0",
-		"@nuxtjs/google-analytics": "^2.2.3",
 		"lodash.memoize": "^4.1.2",
-		"nuxt": "^2.12.2"
+		"next": "^9.3.6",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
 	},
 	"devDependencies": {
-		"@albizures/prettier-config": "^1.0.0",
-		"@nuxt/typescript-build": "^0.6.0",
-		"@nuxtjs/eslint-config-typescript": "^1.0.0",
-		"@nuxtjs/eslint-module": "^1.0.0",
-		"@nuxtjs/tailwindcss": "^1.0.0",
+		"@fullhuman/postcss-purgecss": "^2.2.0",
+		"@types/jest": "^25.2.1",
 		"@types/lodash.memoize": "^4.1.6",
-		"@vue/test-utils": "^1.0.0-beta.27",
-		"babel-eslint": "^10.0.1",
-		"babel-jest": "^24.1.0",
-		"eslint": "^6.1.0",
-		"eslint-config-prettier": "^6.10.0",
-		"eslint-plugin-nuxt": ">=0.4.2",
-		"eslint-plugin-prettier": "^3.1.2",
-		"jest": "^24.1.0",
-		"prettier": "^2.0.5",
-		"ts-jest": "^25.0.0",
-		"vue-jest": "^4.0.0-0"
+		"@types/node": "^13.13.5",
+		"@types/react": "^16.9.34",
+		"autoprefixer": "^9.7.6",
+		"babel-jest": "^26.0.1",
+		"jest": "^26.0.1",
+		"postcss-import": "^12.0.1",
+		"tailwindcss": "^1.4.5",
+		"typescript": "^3.8.3"
 	}
 }

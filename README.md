@@ -1,22 +1,28 @@
-# isprime
+<h1 align="center">
+  Teru's next starter
+</h1>
 
-> simple page to check if the given number is prime
+## Quick start
 
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+```shell
+npx teru my-app albizures/teru-next-starter
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## What's inside?
+
+    .
+    ├── .gitignore
+    ├── LICENSE
+    ├── package.json
+    ├── next-env.d.ts (optional)
+    ├── tailwind.config.js (optional)
+    ├── postcss.config.js (optional)
+    ├── prettier.config.js (optional)
+    ├── tsconfig.json (optional)
+    ├── README.md
+    └── src
+         ├── styles.css (optional)
+         ├── index.js
+         └── pages
+               ├── index.(js|tsx)
+               └── _app.(js|tsx)
