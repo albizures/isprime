@@ -36,7 +36,7 @@
 			v-model="value"
 			autofocus="autofocus"
 			autocomplete="off"
-			class="input w-full rounded my-2 text-center focus:bg-gray-300 focus:outline-none max-w-2xl"
+			class="input w-full rounded my-2 text-center bg-gray-100 focus:bg-gray-300 focus:outline-none max-w-2xl"
 			type="number"
 			name="number"
 		/>
