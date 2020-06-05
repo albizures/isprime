@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@albizures/prettier-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@albizures/prettier-config/-/prettier-config-1.0.0.tgz#fff3cc2dca5b4449ca4a3d076ff1d3e0683d2cd6"
+  integrity sha512-b0zguRy2c6dVqDCEm+s8AWS/8dyN9Q3O5bauuUoNSbmQqv4B/nYkS9eWuznGtmwUOFu7gHBS4XqwL9ny5H0cgQ==
+
 "@ampproject/toolbox-core@^2.2.0", "@ampproject/toolbox-core@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@ampproject/toolbox-core/-/toolbox-core-2.3.0.tgz#f27bd17e01fdc6725c440aefa844f63466c0f37e"

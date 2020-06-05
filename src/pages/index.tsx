@@ -15,6 +15,7 @@ const Index: React.FC = () => {
 	return (
 		<div className="mx-auto flex justify-center items-center text-center flex-col px-2">
 			<Head>
+				<title>Is Prime?</title>
 				{process.env.NODE_ENV === 'production' && (
 					<script
 						data-goatcounter="https://isprime.goatcounter.com/count"

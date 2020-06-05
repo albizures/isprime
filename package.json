@@ -17,6 +17,7 @@
 		"react-dom": "^16.13.1"
 	},
 	"devDependencies": {
+		"@albizures/prettier-config": "^1.0.0",
 		"@fullhuman/postcss-purgecss": "^2.2.0",
 		"@types/jest": "^25.2.1",
 		"@types/lodash.memoize": "^4.1.6",
